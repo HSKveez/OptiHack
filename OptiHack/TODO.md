@@ -5,8 +5,8 @@
 - [x] Sec-med hud
 - [ ] Fov
 - [ ] Overlay removal
-- [x] Some admin patches (sandbox menu too)
-
+- [ ] Some admin patches (sandbox menu too)
+- [ ] Ghost visibility (is it real?!)
 ## Inventory scanner:
 - [x] Base scanning command
 - [x] Command bindings
