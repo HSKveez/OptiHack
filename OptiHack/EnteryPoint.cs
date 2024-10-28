@@ -12,7 +12,7 @@ public sealed class EntryPoint : GameShared
         IoCManager.InjectDependencies<EntryPoint>(this);
         KeyBindingRegistration keyBindingRegistration = new KeyBindingRegistration
         {
-            Function = "togglefov",
+            Function = "optihack.overlay",
             BaseKey = Keyboard.Key.F2,
             Type = KeyBindingType.Command
         };

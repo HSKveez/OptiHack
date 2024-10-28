@@ -1,10 +1,11 @@
+using Content.Shared.Camera;
 using Content.Shared.Overlays;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Player;
 
 namespace OptiHack.Patches;
 
-public sealed class IconsSystem : EntitySystem
+public sealed class KiroshiSystem : EntitySystem
 {
     public override void Initialize()
     {
@@ -17,8 +18,10 @@ public sealed class IconsSystem : EntitySystem
         ShowJobIcons(localPlayer);
         ShowMindShieldIcons(localPlayer);
         ShowHealthBars(localPlayer);
+        ShowHealthIcons(localPlayer);
         ShowSyndicateIcons(localPlayer);
         ShowCriminalRecordIcons(localPlayer);
+        RemoveRecoil(localPlayer);
     }
 
     void ShowJobIcons(EntityUid uid)
@@ -63,7 +66,7 @@ public sealed class IconsSystem : EntitySystem
         {
             var component = new ShowSyndicateIconsComponent
             {
-                NetSyncEnabled = false,
+                NetSyncEnabled = false
             };
             AddComp(uid, component);
         }
@@ -84,6 +87,33 @@ public sealed class IconsSystem : EntitySystem
                 }
             };
             AddComp(uid, component);
+        }
+    }
+    
+    void ShowHealthIcons(EntityUid uid)
+    {
+        if (!HasComp<ShowHealthIconsComponent>(uid))
+        {
+            var component = new ShowHealthIconsComponent
+            {
+                NetSyncEnabled = false,
+                DamageContainers =
+                {
+                    "Biological",
+                    "Inorganic",
+                    "Silicon"
+                }
+            };
+            AddComp(uid, component);
+        }
+    }
+    
+    void RemoveRecoil(EntityUid localPlayer)
+    {
+        if (TryComp(localPlayer, out CameraRecoilComponent? component))
+        {
+            component.NetSyncEnabled = false;
+            RemComp(localPlayer, component);
         }
     }
 }
