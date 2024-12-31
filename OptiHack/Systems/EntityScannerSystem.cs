@@ -1,6 +1,7 @@
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Clothing.Components;
+using Content.Shared.Explosion.Components;
 using Content.Shared.Stacks;
 using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Console;
@@ -24,7 +25,10 @@ public class EntityScannerSystem
 
         if (!TryGetContainedItem(slot, uid, out var itemInSlot, out var exceptionItemInSlot))
         {
-            shell.WriteLine(exceptionItemInSlot);
+            if (exceptionItemInSlot != "")
+            {
+                shell.WriteLine(exceptionItemInSlot);
+            }
             return;
         }
         if (slot != "back" && slot != "belt" && slot != "outerClothing")
@@ -40,25 +44,24 @@ public class EntityScannerSystem
         {
             if (!TryGetStoragebase(itemInSlot[0], out var itemList, out var exceptionStoragebase))
             {
-                shell.WriteLine(exceptionStoragebase);
                 return;
             }
-            shell.WriteLine($"\"{slot.ToUpper()}\" slot contains:");
+            shell.WriteLine($"\"{EntityNameFormater(itemInSlot[0])}\" slot contains:");
             foreach (var item in itemList)
             {
-                shell.WriteLine($"- {EntityNameFormater(item)}");
+                shell.WriteLine($"| {EntityNameFormater(item)}");
 
                 if (TryGetStoragebase(item, out var itemInItemList, out _))
                 {
                     foreach (var itemInItem in itemInItemList)
                     {
-                        shell.WriteLine($"- - {EntityNameFormater(itemInItem)}");
+                        shell.WriteLine($"| | {EntityNameFormater(itemInItem)}");
 
                         if (TryGetStoragebase(itemInItem, out var itemInItemInItemList, out _))
                         {
                             foreach (var itemInItemInItem in itemInItemInItemList)
                             {
-                                shell.WriteLine($"- - - {EntityNameFormater(itemInItemInItem)}");
+                                shell.WriteLine($"| | | {EntityNameFormater(itemInItemInItem)}");
                             }
                         }
                     }
@@ -67,9 +70,8 @@ public class EntityScannerSystem
         }
     }
 
-    public string[] ScanAllSlots(IConsoleShell shell, EntityUid? uid)
+    public void ScanAllSlots(IConsoleShell shell, EntityUid? uid)
     {
-        string[] tags = {};
         string[] slots =
         {
             "shoes",
@@ -79,15 +81,19 @@ public class EntityScannerSystem
             "implant",
             "belt",
             "back",
-            
+            "body_part_slot_right hand",
+            "body_part_slot_left hand",
+            "pocket1",
+            "pocket2"
         };
 
         foreach (var slot in slots)
         {
             ScanSlot(shell, uid, slot);
         }
-        return tags;
     }
+    
+    
 
     public EntityUid? TargetUidParser(IConsoleShell shell, string targetUid)
     {
@@ -111,7 +117,6 @@ public class EntityScannerSystem
         _entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata);
         var entityName = metadata!.EntityName;
         var entityCount = "";
-        var entityCountFlag = "";
         var entityFlag = "";
         if (_entityManager.TryGetComponent<StackComponent>(uid, out var stackComponent))
         {
@@ -160,14 +165,14 @@ public class EntityScannerSystem
 
         if (!containerManagerComponent.Containers.Keys.Contains(slot))
         {
-            exception = $"entity does not have \"{slot.ToUpper()}\" container";
+            exception = "";
             slotEntityUid = null!;
             return false;
         }
 
         if (containerManagerComponent.Containers[slot].ContainedEntities.Count == 0)
         {
-            exception = $"\"{slot.ToUpper()}\" slot is empty";
+            exception = "";
             slotEntityUid = null!;
             return false;
         }
@@ -177,7 +182,7 @@ public class EntityScannerSystem
         return true;
     }
 
-    public bool TryGetStoragebase(EntityUid itemInSlot, out IReadOnlyList<EntityUid> itemList, out string exception)
+    private bool TryGetStoragebase(EntityUid itemInSlot, out IReadOnlyList<EntityUid> itemList, out string exception)
     {
         if (!_entityManager.TryGetComponent<ContainerManagerComponent>(itemInSlot, out var slotContainer))
         {
@@ -195,5 +200,124 @@ public class EntityScannerSystem
         exception = "";
         itemList = slotContainer.Containers["storagebase"].ContainedEntities;
         return true;
+    }
+
+    public string ScanAllFlags(EntityUid? uid)
+    {
+        string flags = "";
+        var flagList = new List<string>();
+        
+        string[] slots =
+        {
+            "shoes",
+            "gloves",
+            "entity_storage",
+            "outerClothing",
+            "implant",
+            "belt",
+            "back",
+            "body_part_slot_right hand",
+            "body_part_slot_left hand",
+            "pocket1",
+            "pocket2",
+            "suitstorage"
+        };
+        
+        foreach (var slot in slots)
+        {
+            if (uid == null)
+            {
+                continue;
+            }
+
+            if (!TryGetContainedItem(slot, uid, out var itemInSlot, out _))
+            {
+                continue;
+            }
+            if (slot != "back" && slot != "belt" && slot != "outerClothing")
+            {
+                foreach (var item in itemInSlot)
+                {
+                    ScanFlag(item, ref flagList);
+                }
+            }
+            
+            if(slot == "shoes")
+            {
+                if (!TryGetContainedItem(slot, uid, out var shoesSlot, out _))
+                {
+                    continue;
+                }
+                if (!TryGetContainedItem("item", shoesSlot[0], out var itemsInShoes, out _))
+                {
+                    continue;
+                }
+
+                foreach (var item in itemsInShoes)
+                {
+                    ScanFlag(item, ref flagList);
+                }
+            }
+            else
+            {
+                ScanFlag(itemInSlot[0], ref flagList);
+                if (!TryGetStoragebase(itemInSlot[0], out var itemList, out _))
+                {
+                    continue;
+                }
+                
+                foreach (var item in itemList)
+                {
+                    ScanFlag(item, ref flagList);
+
+                    if (TryGetStoragebase(item, out var itemInItemList, out _))
+                    {
+                        foreach (var itemInItem in itemInItemList)
+                        {
+                            ScanFlag(itemInItem, ref flagList);
+
+                            if (TryGetStoragebase(itemInItem, out var itemInItemInItemList, out _))
+                            {
+                                foreach (var itemInItemInItem in itemInItemInItemList)
+                                {
+                                    ScanFlag(itemInItemInItem, ref flagList);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        foreach (var flag in flagList)
+        {
+            flags += flag + " ";
+        }
+        
+        return flags;
+    }
+
+    private void ScanFlag(EntityUid? uid, ref List<string> flagList)
+    {
+        _entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata);
+        var contrabandItems = new List<string>
+        {
+            "EmpImplant",
+        };
+
+        if (_entityManager.TryGetComponent<ExplosiveComponent>(uid, out _) && !_entityManager.TryGetComponent<ClothingComponent>(uid, out _) && !flagList.Contains("EXPLOSIVE"))
+        {
+            flagList.Add("EXPLOSIVE");
+        }
+                    
+        if (contrabandItems.Contains(metadata!.EntityPrototype.ID) && !flagList.Contains("ANTAG"))
+        {
+            flagList.Add("CONTRABAND");
+        }
+        
+        if (_entityManager.TryGetComponent<GunComponent>(uid, out _) && !flagList.Contains("GUN"))
+        {
+            flagList.Add("GUN");
+        }
     }
 }

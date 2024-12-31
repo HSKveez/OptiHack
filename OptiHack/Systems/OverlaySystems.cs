@@ -1,45 +1,31 @@
 using System.Numerics;
-using Content.Shared.Administration;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
-using Robust.Shared.Console;
 using Robust.Shared.Enums;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
 using Robust.Shared.Maths;
 using Robust.Shared.Player;
 
-namespace OptiHack.Commands;
+namespace OptiHack.Systems;
 
-[AnyCommand]
-public class OptiHackOverlayCommand : IConsoleCommand
+public sealed class OptiHackOverlayDraw : Overlay
 {
-    public string Command => "optihack.overlay";
-    public string Description => "Shows optihack overlay";
-    public string Help => "optihack.overlay";
-
-    public void Execute(IConsoleShell shell, string argStr, string[] args)
-    {
-        var overlaySystem = EntitySystem.Get<OptiHackSystem>();
-        overlaySystem.Enabled ^= true;
-    }
-}
-
-public sealed class OptiHackOverlaySystem : Overlay
-{
+    private readonly ISharedPlayerManager _playerManager = IoCManager.Resolve<ISharedPlayerManager>();
     private readonly IEntityManager _entityManager;
     private readonly SharedTransformSystem _transformSystem;
     private readonly IEyeManager _eyeManager;
     private readonly IUserInterfaceManager _userInterfaceManager;
     private readonly EntityLookupSystem _entityLookup;
+    private readonly EntityScannerSystem _entityScanner = new();
 
     private readonly Font _font;
 
     public override OverlaySpace Space => OverlaySpace.ScreenSpace;
 
-    public OptiHackOverlaySystem(IEntityManager entityManager, IResourceCache resourceCache, SharedTransformSystem transformSystem, IEyeManager eyeManager, IUserInterfaceManager userInterfaceManager, EntityLookupSystem entityLookup)
+    public OptiHackOverlayDraw(IEntityManager entityManager, IResourceCache resourceCache, SharedTransformSystem transformSystem, IEyeManager eyeManager, IUserInterfaceManager userInterfaceManager, EntityLookupSystem entityLookup)
     {
         _entityManager = entityManager;
         _transformSystem = transformSystem;
@@ -57,16 +43,25 @@ public sealed class OptiHackOverlaySystem : Overlay
         var query = _entityManager.EntityQueryEnumerator<ActorComponent, SpriteComponent, MetaDataComponent>();
         var xformQuery = _entityManager.GetEntityQuery<TransformComponent>();
         var viewport = args.WorldAABB;
-
+        xformQuery.TryGetComponent(_playerManager.LocalEntity, out var localPlayerXform);
+        
         while (query.MoveNext(out var uid, out var actorComponent, out var spriteComponent, out var metadata))
         {
             if (!xformQuery.TryGetComponent(uid, out var xform))
+            {
                 continue;
+            }
+
+            if (xform.MapUid != localPlayerXform!.MapUid)
+            {
+                continue;
+            }
             
             if (_entityManager.HasComponent<ActorComponent>(uid))
             {
                 var playerSessionName = actorComponent.PlayerSession.Name;
                 var playerEntityName = metadata.EntityName;
+                var playerInventoryWarnings = _entityScanner.ScanAllFlags(uid); 
                 
                 var aabb = _entityLookup.GetWorldAABB(uid);
 
@@ -91,12 +86,18 @@ public sealed class OptiHackOverlaySystem : Overlay
                 lineoffset = new Vector2(x, y) * uiScale;
                 
                 args.ScreenHandle.DrawString(_font, screenCoordinates + lineoffset, playerEntityName, uiScale, Color.Cyan);
+                
+                x = 0f;
+                y -= -22f;
+                lineoffset = new Vector2(x, y) * uiScale;
+                
+                args.ScreenHandle.DrawString(_font, screenCoordinates + lineoffset, playerInventoryWarnings, uiScale, Color.OrangeRed);
             }
         }
     }
 }
 
-public sealed class OptiHackSystem : EntitySystem
+public sealed class OptiHackOverlaySystem : EntitySystem
 {
     [Dependency] private readonly IOverlayManager _overlayManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
@@ -106,7 +107,7 @@ public sealed class OptiHackSystem : EntitySystem
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
     [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
 
-    private OptiHackOverlaySystem? _overlay;
+    private OptiHackOverlayDraw? _overlay;
 
     public bool Enabled
     {
@@ -119,7 +120,7 @@ public sealed class OptiHackSystem : EntitySystem
 
             if (_enabled)
             {
-                _overlay = new OptiHackOverlaySystem(_entityManager, _resourceCache, _transformSystem, _eyeManager, _userInterfaceManager, _entityLookup);
+                _overlay = new OptiHackOverlayDraw(_entityManager, _resourceCache, _transformSystem, _eyeManager, _userInterfaceManager, _entityLookup);
                 _overlayManager.AddOverlay(_overlay);
             }
             else
