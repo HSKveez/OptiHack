@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\SimpleCommand\\SimpleCommand.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\SimpleCommand\\SimpleCommand.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\SimpleCommand\\SimpleCommand.csproj",
+        "projectName": "SimpleCommand",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\SimpleCommand\\SimpleCommand.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\SimpleCommand\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Client\\Content.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Client\\Content.Client.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\JustAnotherCheat\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.0-prerelease.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

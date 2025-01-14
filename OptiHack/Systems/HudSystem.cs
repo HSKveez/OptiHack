@@ -71,9 +71,7 @@ public sealed class KiroshiSystem
                 NetSyncEnabled = false,
                 DamageContainers =
                 {
-                    "Biological",
-                    "Inorganic",
-                    "Silicon"
+                    "Biological"
                 }
             };
             _entityManager.AddComponent(uid.Value, healthBarsComponent);
@@ -86,9 +84,7 @@ public sealed class KiroshiSystem
                 NetSyncEnabled = false,
                 DamageContainers =
                 {
-                    "Biological",
-                    "Inorganic",
-                    "Silicon"
+                    "Biological"
                 }
             };
             _entityManager.AddComponent(uid.Value, healthIconsComponent);

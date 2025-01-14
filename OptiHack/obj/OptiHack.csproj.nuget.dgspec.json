@@ -1,0 +1,2029 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+        "projectName": "OptiHack",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.3, )"
+            },
+            "SpaceWizards.NFluidsynth": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+        "projectName": "Content.Client",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Nett": {
+              "target": "Package",
+              "version": "[0.15.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "CsvHelper": "30.0.1",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "ImGui.NET": "1.87.3",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK": "4.7.2",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "Veldrid": "4.8.0",
+            "Veldrid.SPIRV": "1.0.15",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+        "projectName": "Content.Shared.Database",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "CsvHelper": "30.0.1",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "ImGui.NET": "1.87.3",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK": "4.7.2",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "Veldrid": "4.8.0",
+            "Veldrid.SPIRV": "1.0.15",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+        "projectName": "Content.Shared",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "CsvHelper": "30.0.1",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "ImGui.NET": "1.87.3",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK": "4.7.2",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "Veldrid": "4.8.0",
+            "Veldrid.SPIRV": "1.0.15",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+      "version": "237.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+        "projectName": "Avalonia.Base",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+        "projectName": "SpaceWizards.Lidgren.Network",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+        "projectName": "Robust.NetSerializer",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+        "projectName": "OpenToolkit.GraphicsLibraryFramework",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+      "version": "237.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+        "projectName": "Robust.Client",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DiscordRichPresence": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[1.2.1.24, )",
+              "versionCentrallyManaged": true
+            },
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "JetBrains.Profiler.Api": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Features": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Scripting": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTK.OpenAL": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[4.7.7, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenToolkit.Graphics": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[4.0.0-pre9.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Robust.Natives": {
+              "target": "Package",
+              "version": "[0.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[2.1.7, )",
+              "versionCentrallyManaged": true
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )",
+              "versionCentrallyManaged": true
+            },
+            "SpaceWizards.NFluidsynth": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[0.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "SpaceWizards.SharpFont": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "SpaceWizards.Sodium": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[0.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "TerraFX.Interop.Windows": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[10.0.22621.5, )",
+              "versionCentrallyManaged": true
+            },
+            "TerraFX.Interop.Xlib": {
+              "target": "Package",
+              "version": "[6.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+        "projectName": "Robust.LoaderApi",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+      "version": "237.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+        "projectName": "Robust.Shared.Maths",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+      "version": "237.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+        "projectName": "Robust.Shared.Scripting",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ILReader.Core": {
+              "target": "Package",
+              "version": "[1.0.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Features": {
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Scripting": {
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.8.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+      "version": "237.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+        "projectName": "Robust.Shared",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj"
+              },
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Linguini.Bundle": {
+              "target": "Package",
+              "version": "[0.8.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.ILVerification": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[3.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Win32.Registry": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Nett": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[0.15.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Pidgin": {
+              "target": "Package",
+              "version": "[3.2.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Robust.Shared.AuthLib": {
+              "target": "Package",
+              "version": "[0.1.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "SharpZstd.Interop": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[1.5.2-beta2, )",
+              "versionCentrallyManaged": true
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )",
+              "versionCentrallyManaged": true
+            },
+            "SpaceWizards.Sodium": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[0.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "TerraFX.Interop.Windows": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[10.0.22621.5, )",
+              "versionCentrallyManaged": true
+            },
+            "VorbisPizza": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[1.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.7.1, )",
+              "versionCentrallyManaged": true
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.2.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "DiscordRichPresence": "1.2.1.24",
+            "ILReader.Core": "1.0.0.4",
+            "JetBrains.Annotations": "2023.3.0",
+            "JetBrains.Profiler.Api": "1.4.0",
+            "Linguini.Bundle": "0.8.1",
+            "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.NUnit": "1.1.1",
+            "Microsoft.CodeAnalysis.CSharp.Features": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Scripting": "4.8.0",
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
+            "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
+            "Microsoft.CodeCoverage": "17.8.0",
+            "Microsoft.Data.Sqlite.Core": "8.0.0",
+            "Microsoft.DotNet.RemoteExecutor": "8.0.0-beta.24059.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.ObjectPool": "8.0.0",
+            "Microsoft.Extensions.Primitives": "8.0.0",
+            "Microsoft.ILVerification": "8.0.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+            "Microsoft.NET.ILLink.Tasks": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.Win32.Registry": "5.0.0",
+            "Moq": "4.20.70",
+            "Nett": "0.15.0",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+            "NUnit": "4.0.1",
+            "NUnit.Analyzers": "3.10.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OpenTK.OpenAL": "4.7.7",
+            "OpenToolkit.Graphics": "4.0.0-pre9.1",
+            "Pidgin": "3.2.2",
+            "PolySharp": "1.14.1",
+            "prometheus-net": "8.2.1",
+            "prometheus-net.DotNetRuntime": "4.4.0",
+            "Robust.Natives": "0.1.1",
+            "Robust.Natives.Cef": "120.1.9",
+            "Robust.Shared.AuthLib": "0.1.2",
+            "Serilog": "3.1.1",
+            "Serilog.Sinks.Loki": "4.0.0-beta3",
+            "SharpZstd.Interop": "1.5.2-beta2",
+            "SixLabors.ImageSharp": "3.1.5",
+            "SpaceWizards.HttpListener": "0.1.1",
+            "SpaceWizards.NFluidsynth": "0.1.1",
+            "SpaceWizards.SharpFont": "1.0.2",
+            "SpaceWizards.Sodium": "0.2.1",
+            "SQLitePCLRaw.bundle_e_sqlite3": "2.1.7",
+            "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+            "System.Memory": "4.5.5",
+            "System.Numerics.Vectors": "4.5.0",
+            "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+            "TerraFX.Interop.Windows": "10.0.22621.5",
+            "TerraFX.Interop.Xlib": "6.4.0",
+            "VorbisPizza": "1.3.0",
+            "YamlDotNet": "13.7.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
+        "projectName": "Robust.Xaml",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[17.8.3, )"
+            },
+            "Mono.Cecil": {
+              "target": "Package",
+              "version": "[0.11.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
+        "projectName": "XamlX.IL.Cecil",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Mono.Cecil": {
+              "target": "Package",
+              "version": "[0.11.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
+        "projectName": "XamlX",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
+        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -42,7 +42,7 @@ public class EntityScannerSystem
         }
         else
         {
-            if (!TryGetStoragebase(itemInSlot[0], out var itemList, out var exceptionStoragebase))
+            if (!TryGetStoragebase(itemInSlot[0], out var itemList, out var _))
             {
                 return;
             }
@@ -81,10 +81,14 @@ public class EntityScannerSystem
             "implant",
             "belt",
             "back",
-            "body_part_slot_right hand",
+            "body_part_slot_right hand",//виздены хуесосы не могут понять как буквы писать
+            "body_part_slot_right_hand",
             "body_part_slot_left hand",
+            "body_part_slot_left_hand",
             "pocket1",
-            "pocket2"
+            "pocket2",
+            "suitstorage",
+            "id"
         };
 
         foreach (var slot in slots)
@@ -112,7 +116,7 @@ public class EntityScannerSystem
         return uid;
     }
 
-    public string EntityNameFormater(EntityUid uid)
+    private string EntityNameFormater(EntityUid uid)
     {
         _entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata);
         var entityName = metadata!.EntityName;
@@ -154,7 +158,7 @@ public class EntityScannerSystem
         return entityData;
     }
 
-    public bool TryGetContainedItem(string slot, EntityUid? uid, out IReadOnlyList<EntityUid> slotEntityUid, out string exception)
+    private bool TryGetContainedItem(string slot, EntityUid? uid, out IReadOnlyList<EntityUid> slotEntityUid, out string exception)
     {
         if (!_entityManager.TryGetComponent<ContainerManagerComponent>(uid, out var containerManagerComponent))
         {
@@ -216,8 +220,10 @@ public class EntityScannerSystem
             "implant",
             "belt",
             "back",
-            "body_part_slot_right hand",
+            "body_part_slot_right hand",//виздены хуесосы не могут понять как буквы писать
+            "body_part_slot_right_hand",
             "body_part_slot_left hand",
+            "body_part_slot_left_hand",
             "pocket1",
             "pocket2",
             "suitstorage"
@@ -249,6 +255,22 @@ public class EntityScannerSystem
                     continue;
                 }
                 if (!TryGetContainedItem("item", shoesSlot[0], out var itemsInShoes, out _))
+                {
+                    continue;
+                }
+
+                foreach (var item in itemsInShoes)
+                {
+                    ScanFlag(item, ref flagList);
+                }
+            }
+            else if(slot == "id")
+            {
+                if (!TryGetContainedItem(slot, uid, out var shoesSlot, out _))
+                {
+                    continue;
+                }
+                if (!TryGetContainedItem("PDA-id", shoesSlot[0], out var itemsInShoes, out _))
                 {
                     continue;
                 }
