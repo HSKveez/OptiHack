@@ -17,6 +17,6 @@ public class HudCommand : IConsoleCommand
         var overlaySystem = EntitySystem.Get<OptiHackOverlaySystem>();
         overlaySystem.Enabled ^= true;
         
-        _hudSystem.ToggleIcons();
+        _hudSystem.ToggleIcons();   
     }
 }

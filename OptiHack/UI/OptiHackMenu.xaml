@@ -1,0 +1,88 @@
+<menu:OptiHackWindow
+    MinSize="490 398"
+    SetSize="490 398"
+    xmlns="https://spacestation14.io"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    xmlns:menu="clr-namespace:OptiHack.UI.Window">
+    <BoxContainer Orientation="Vertical">
+        <BoxContainer SetSize="480 28" />
+        <BoxContainer
+            HorizontalAlignment="Center"
+            Orientation="Horizontal"
+            SetSize="475 366"
+            VerticalAlignment="Center">
+
+            <BoxContainer
+                HorizontalAlignment="Left"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                SetSize="233 366"
+                VerticalAlignment="Top"
+                VerticalExpand="False">
+                <Button
+                    Name="Overlay"
+                    StyleClasses="ButtonSquare"
+                    Text="Overlay"
+                    ToggleMode="True" />
+                <Button
+                    Name="Hud"
+                    StyleClasses="ButtonSquare"
+                    Text="Toggle Hud"
+                    ToggleMode="True" />
+                <Button
+                    Name="Fov"
+                    StyleClasses="ButtonSquare"
+                    Text="Toggle FOV"
+                    ToggleMode="True" />
+                <Button
+                    Name="Shadows"
+                    StyleClasses="ButtonSquare"
+                    Text="Toggle Shadows"
+                    ToggleMode="True" />
+            </BoxContainer>
+            <BoxContainer
+                HorizontalAlignment="Center"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                SetSize="4 366"
+                VerticalAlignment="Center"
+                VerticalExpand="False" />
+            <BoxContainer
+                HorizontalAlignment="Right"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                SetSize="233 337"
+                VerticalAlignment="Top"
+                VerticalExpand="False">
+                <BoxContainer SetSize="233 337" VerticalAlignment="Top">
+                    <PanelContainer SetSize="233 337">
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat
+                                BackgroundColor="#2b2d31"
+                                BorderColor="#2e3035"
+                                BorderThickness="3,3,3,3" />
+                        </PanelContainer.PanelOverride>
+                        <ScrollContainer SetSize="223 327">
+                            <RichTextLabel Name="Info" />
+                        </ScrollContainer>
+                    </PanelContainer>
+                </BoxContainer>
+                <BoxContainer
+                    Orientation="Horizontal"
+                    SetSize="233 29"
+                    VerticalAlignment="Top">
+                    <LineEdit
+                        HorizontalAlignment="Left"
+                        Name="Uid"
+                        SetWidth="113"
+                        StyleClasses="ButtonSquare" />
+                    <Button
+                        HorizontalAlignment="Right"
+                        Name="Scan"
+                        StyleClasses="ButtonSquare"
+                        Text="Scan Inventory" />
+                </BoxContainer>
+            </BoxContainer>
+        </BoxContainer>
+    </BoxContainer>
+</menu:OptiHackWindow>

@@ -1,0 +1,46 @@
+<window:OptiHackWindow
+    MinHeight="430"
+    MinWidth="490"
+    MouseFilter="Stop"
+    Resizable="False"
+    xmlns="https://spacestation14.io"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    xmlns:window="clr-namespace:OptiHack.UI.Window">
+    <PanelContainer>
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat
+                BackgroundColor="#313338"
+                BorderColor="#a12f25"
+                BorderThickness="5,5,5,5" />
+        </PanelContainer.PanelOverride>
+    </PanelContainer>
+    <BoxContainer Orientation="Vertical" SeparationOverride="0">
+        <PanelContainer Name="WindowHeader" StyleClasses="windowHeader">
+            <BoxContainer Orientation="Horizontal" SetSize="480 21">
+                <Label
+                    ClipText="True"
+                    FontColorOverride="#f2f3f5"
+                    HorizontalAlignment="Left"
+                    HorizontalExpand="False"
+                    Margin="5,0,0,0"
+                    Name="TitleLabel"
+                    SetWidth="454"
+                    StyleIdentifier="foo"
+                    Text="OptiHackWindow"
+                    VAlign="Top" />
+                <TextureButton
+                    HorizontalAlignment="Right"
+                    Name="CloseButton"
+                    SetSize="21 21"
+                    StyleClasses="windowCloseButton"
+                    VerticalAlignment="Center" />
+            </BoxContainer>
+        </PanelContainer>
+        <Control
+            Access="Public"
+            Margin="0,2"
+            Name="ContentsContainer"
+            RectClipContent="True"
+            VerticalExpand="False" />
+    </BoxContainer>
+</window:OptiHackWindow>

@@ -10,18 +10,20 @@ public sealed class KiroshiSystem
 {
     private readonly IEntityManager _entityManager = IoCManager.Resolve<IEntityManager>();
     private readonly ISharedPlayerManager _playerManager = IoCManager.Resolve<ISharedPlayerManager>();
+    private bool _enabled = false;
 
     public void ToggleIcons()
     {
         var uid = _playerManager.LocalEntity;
-        var overlaySystem = EntitySystem.Get<OptiHackOverlaySystem>();
-        if (overlaySystem.Enabled)
+        if (!_enabled)
         {
             ShowAllIcons(uid);
+            _enabled = true;
         }
         else
         {
            HideAllIcons(uid); 
+           _enabled = false;
         }
     }
     
@@ -135,10 +137,13 @@ public sealed class KiroshiSystem
             _entityManager.RemoveComponent(uid.Value, healthIconsComponent);
         }
         
-        if (_entityManager.TryGetComponent(uid, out CameraRecoilComponent? recoilComponent))
+        if (!_entityManager.HasComponent<CameraRecoilComponent>(uid))
         {
-            recoilComponent.NetSyncEnabled = false;
-            _entityManager.RemoveComponent(uid.Value, recoilComponent);
+            var cameraRecoilComponent = new CameraRecoilComponent
+            {
+                NetSyncEnabled = false
+            };
+            _entityManager.AddComponent(uid.Value, cameraRecoilComponent);
         }
     }
 }

@@ -19,7 +19,7 @@ public sealed class OptiHackOverlayDraw : Overlay
     private readonly IEyeManager _eyeManager;
     private readonly IUserInterfaceManager _userInterfaceManager;
     private readonly EntityLookupSystem _entityLookup;
-    private readonly EntityScannerSystem _entityScanner = new();
+    private readonly ContainerContentAnalyzerSystem _containerContentAnalyzer = new();
 
     private readonly Font _font;
 
@@ -61,7 +61,7 @@ public sealed class OptiHackOverlayDraw : Overlay
             {
                 var playerSessionName = actorComponent.PlayerSession.Name;
                 var playerEntityName = metadata.EntityName;
-                var playerInventoryWarnings = _entityScanner.ScanAllFlags(uid); 
+                var playerInventoryWarnings = _containerContentAnalyzer.ScanAllFlags(uid); 
                 
                 var aabb = _entityLookup.GetWorldAABB(uid);
 

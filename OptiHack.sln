@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptiHack", "OptiHack\OptiHack.csproj", "{24CFAFB9-95DF-4EA9-8053-E781B5DEE2E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.Client", "space-station-14\Content.Client\Content.Client.csproj", "{EE86EE1B-04EF-483F-B63E-2FB664854B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robust.Client", "space-station-14\RobustToolbox\Robust.Client\Robust.Client.csproj", "{4940C9B7-E842-405E-8CF5-E62150EFE7EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,22 @@ Global
 		{24CFAFB9-95DF-4EA9-8053-E781B5DEE2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24CFAFB9-95DF-4EA9-8053-E781B5DEE2E3}.Tools|Any CPU.ActiveCfg = Release|Any CPU
 		{24CFAFB9-95DF-4EA9-8053-E781B5DEE2E3}.Tools|Any CPU.Build.0 = Release|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.DebugOpt|Any CPU.ActiveCfg = DebugOpt|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.DebugOpt|Any CPU.Build.0 = DebugOpt|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{EE86EE1B-04EF-483F-B63E-2FB664854B79}.Tools|Any CPU.Build.0 = Tools|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.DebugOpt|Any CPU.ActiveCfg = DebugOpt|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.DebugOpt|Any CPU.Build.0 = DebugOpt|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{4940C9B7-E842-405E-8CF5-E62150EFE7EB}.Tools|Any CPU.Build.0 = Tools|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
