@@ -1,5 +1,5 @@
+using System.Text;
 using Content.Shared.Stacks;
-using Content.Shared.StoreDiscount.Components;
 using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Containers;
 using Robust.Shared.GameObjects;
@@ -12,125 +12,153 @@ public class ContainerContentAnalyzerSystem
 {
     private readonly IEntityManager _entityManager = IoCManager.Resolve<IEntityManager>();
 
+
+    private static readonly HashSet<string> ContrabandItems = new()
+    {
+        "EnergyDagger",
+        "ToolboxElectricalTurretFilled",
+        "EnergySword",
+        "EnergySwordDouble",
+        "BloodDagger",
+        "EnergyCrossbowMini",
+        "BaseBallBatHomeRun",
+        "BetrayalDagger",
+        "EmpGrenade",
+        "WhiteholeGrenade",
+        "GrenadeIncendiary",
+        "PenExploding",
+        "GrenadeShrapnel",
+        "MobGrenadePenguin",
+        "SupermatterGrenade",
+        "SyndieMiniBomb",
+        "SyndiCrewMonitorEmpty",
+        "DehydratedSpaceCarp",
+        "SyndicateJawsOfLife",
+        "CyberPen",
+        "ClothingMaskGasVoiceChameleon",
+        "FlashlightEmp",
+        "AgentIDCard",
+        "Hypopen",
+        "ChameleonProjector",
+        "ReinforcementRadioSyndicateAncestor",
+        "Emag",
+        "ExperimentalSyndicateTeleporter",
+        "ClothingShoesChameleonNoSlips",
+        "ClothingEyesThermalVisionGogglesSyndie",
+        "ClothingEyesNightVisionGogglesSyndie",
+        "ClothingOuterVestWeb",
+        "ClothingOuterHardsuitSyndie",
+        "ClothingOuterHardsuitSyndieElite",
+        "ClothingOuterHardsuitJuggernaut",
+        "ThievingGloves",
+        "ClothingHandsGlovesNorthStar",
+        "StorageImplant",
+        "ScramImplant",
+        "FreedomImplant",
+        "DnaScramblerImplant",
+        "EmpImplant",
+        "UplinkImplant"
+    };
+
+    private static readonly HashSet<string> Slots = new ()
+    {
+        "shoes",
+        "gloves",
+        "entity_storage",
+        "outerClothing",
+        "implant",
+        "belt",
+        "back",
+        "body_part_slot_right hand", //виздены хуесосы не могут понять как буквы писать
+        "body_part_slot_right_hand",
+        "body_part_slot_left hand",
+        "body_part_slot_left_hand",
+        "pocket1",
+        "pocket2",
+        "suitstorage",
+        "id"
+    };
+    
+    
     public List<string> ScanSlot(EntityUid? uid, string slot)
     {
-        List<string> output = new();
-        if (uid == null)
+        var output = new List<string>();
+        if (uid == null) return output;
+
+        if (!TryGetContainedItems(slot, uid, out var items, out var exception))
         {
+            if (!string.IsNullOrEmpty(exception)) output.Add(exception);
             return output;
         }
-        
-        if (!TryGetContainedItem(slot, uid, out var itemInSlot, out var exceptionItemInSlot))
-        {
-            if (exceptionItemInSlot != "")
-            {
-                output.Add(exceptionItemInSlot);
-            }
-            return output;
-        }
-        
-        if (slot != "back" && slot != "belt" && slot != "outerClothing")
-        {
-            output.Add(slot + ":");
-            foreach (var item in itemInSlot)
-            {
-                output.Add($"{EntityNameFormater(item)}");
-            }
-        }
-        
-        if(slot == "shoes")
-        {
-            if (!TryGetContainedItem(slot, uid, out var shoesSlot, out _))
-            {
-                return output;
-            }
-            if (!TryGetContainedItem("item", shoesSlot[0], out var itemsInShoes, out _))
-            {
-                return output;
-            }
 
-            foreach (var item in itemsInShoes)
-            {
-                output.Add($"| {EntityNameFormater(item)}");
-            }
-        }
-        else if(slot == "id")
+        if (IsSpecialSlot(slot))
         {
-            if (!TryGetContainedItem(slot, uid, out var shoesSlot, out _))
-            {
-                return output;
-            }
-            if (!TryGetContainedItem("PDA-id", shoesSlot[0], out var itemsInShoes, out _))
-            {
-                return output;
-            }
-
-            foreach (var item in itemsInShoes)
-            {
-                output.Add($"| {EntityNameFormater(item)}");
-            }
+            ProcessSpecialSlot(slot, items, output);
         }
         else
         {
-            if (!TryGetStoragebase(itemInSlot[0], out var itemList, out var _))
-            {
-                return output;
-            }
-            output.Add($"\"{EntityNameFormater(itemInSlot[0])}\" slot contains:");
-            foreach (var item in itemList)
-            {
-                output.Add($"| {EntityNameFormater(item)}");
-
-                if (TryGetStoragebase(item, out var itemInItemList, out _))
-                {
-                    foreach (var itemInItem in itemInItemList)
-                    {
-                        output.Add($"| | {EntityNameFormater(itemInItem)}");
-
-                        if (TryGetStoragebase(itemInItem, out var itemInItemInItemList, out _))
-                        {
-                            foreach (var itemInItemInItem in itemInItemInItemList)
-                            {
-                                output.Add($"| | | {EntityNameFormater(itemInItemInItem)}");
-                            }
-                        }
-                    }
-                }
-            }
+            output.Add($"{slot}:");
+            output.AddRange(ProcessContainerItems(items));
         }
+
         return output;
     }
+    
+    private bool IsSpecialSlot(string slot) => 
+        slot is "back" or "belt" or "outerClothing" or "shoes" or "id";
+
+    private void ProcessSpecialSlot(string slot, IReadOnlyList<EntityUid> items, List<string> output)
+    {
+        switch (slot)
+        {
+            case "shoes" or "id":
+                var containerType = slot == "shoes" ? "item" : "PDA-id";
+                if (TryGetContainedItems(containerType, items.FirstOrDefault(), out var subItems, out _))
+                {
+                    output.Add($"{EntityNameFormater(items.FirstOrDefault())}:");
+                    output.AddRange(subItems.Select(item => $"| {EntityNameFormater(item)}"));
+                }
+                break;
+            
+            case "back" or "belt" or "outerClothing":
+                if (TryGetContainedItems("storagebase",items.FirstOrDefault(), out var storageItems, out _))
+                {
+                    output.Add($"{EntityNameFormater(items.FirstOrDefault())}:");
+                    output.AddRange(ProcessContainerItems(storageItems));
+                }
+                break;
+        }
+    }
+    
+    private List<string> ProcessContainerItems(IReadOnlyList<EntityUid> items, int depth = 1, HashSet<string>? parentFlags = null)
+    {
+        var result = new List<string>();
+        foreach (var item in items)
+        {
+            var itemFlags = parentFlags != null 
+                ? new HashSet<string>(parentFlags) 
+                : new HashSet<string>();
+            
+            ScanFlags(item, itemFlags);
+        
+            result.Add($"{new string('|', depth)} {EntityNameFormater(item, itemFlags)}");
+        
+            if (TryGetContainedItems("storagebase", item, out var nestedItems, out _))
+            {
+                result.AddRange(ProcessContainerItems(nestedItems, depth + 1, itemFlags));
+            }
+        }
+        return result;
+    }
+
 
     public List<string> ScanAllSlots(EntityUid? uid)
     {
-        string[] slots =
+        var result = new List<string>();
+        foreach (var slot in Slots)
         {
-            "shoes",
-            "gloves",
-            "entity_storage",
-            "outerClothing",
-            "implant",
-            "belt",
-            "back",
-            "body_part_slot_right hand", //виздены хуесосы не могут понять как буквы писать
-            "body_part_slot_right_hand",
-            "body_part_slot_left hand",
-            "body_part_slot_left_hand",
-            "pocket1",
-            "pocket2",
-            "suitstorage",
-            "id"
-        };
-        
-        List<string> output = new();
-        List<string> result = new();
-        foreach (var slot in slots)
-        {
-             output = ScanSlot(uid, slot);
-             foreach (var line in output)
-             {
-                 result.Add(line);
-             }
+            var output = ScanSlot(uid, slot);
+            result.AddRange(output);
         }
 
         return result;
@@ -141,323 +169,104 @@ public class ContainerContentAnalyzerSystem
     public EntityUid? TargetUidParser(string targetUid)
     {
         if (!int.TryParse(targetUid, out var entInt))
-        {
             return null;
-        }
 
         var netEntity = new NetEntity(entInt);
         if (!_entityManager.TryGetEntity(netEntity, out var uid))
-        {
             return null;
-        }
+        
         return uid;
     }
 
-    private string EntityNameFormater(EntityUid uid)
+    private string EntityNameFormater(EntityUid uid, HashSet<string>? flags = null)
     {
+        var sb = new StringBuilder();
         _entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata);
-        var entityName = metadata!.EntityName;
-        var entityCount = "";
-        var entityFlag = "";
-        var contrabandItems = new List<string>
-        {
-            "EnergyDagger",
-            "ToolboxElectricalTurretFilled",
-            "EnergySword",
-            "EnergySwordDouble",
-            "BloodDagger",
-            "EnergyCrossbowMini",
-            "BaseBallBatHomeRun",
-            "BetrayalDagger",
-            "EmpGrenade",
-            "WhiteholeGrenade",
-            "GrenadeIncendiary",
-            "PenExploding",
-            "GrenadeShrapnel",
-            "MobGrenadePenguin",
-            "SupermatterGrenade",
-            "SyndieMiniBomb",
-            "SyndiCrewMonitorEmpty",
-            "DehydratedSpaceCarp",
-            "SyndicateJawsOfLife",
-            "CyberPen",
-            "ClothingMaskGasVoiceChameleon",
-            "FlashlightEmp",
-            "AgentIDCard",
-            "Hypopen",
-            "ChameleonProjector",
-            "ReinforcementRadioSyndicateAncestor",
-            "Emag",
-            "ExperimentalSyndicateTeleporter",
-            "ClothingShoesChameleonNoSlips",
-            "ClothingEyesThermalVisionGogglesSyndie",
-            "ClothingEyesNightVisionGogglesSyndie",
-            "ClothingOuterVestWeb",
-            "ClothingOuterHardsuitSyndie",
-            "ClothingOuterHardsuitSyndieElite",
-            "ClothingOuterHardsuitJuggernaut",
-            "ThievingGloves",
-            "ClothingHandsGlovesNorthStar",
-            "StorageImplant",
-            "ScramImplant",
-            "FreedomImplant",
-            "DnaScramblerImplant",
-            "EmpImplant",
-            "UplinkImplant"
-        };
         
-        if (_entityManager.TryGetComponent<StackComponent>(uid, out var stackComponent))
+        var itemFlags = new HashSet<string>();
+        ScanFlags(uid, itemFlags);
+        
+        if (flags != null) itemFlags.UnionWith(flags);
+        
+        sb.Append(metadata?.EntityName);
+        
+        if (_entityManager.TryGetComponent<StackComponent>(uid, out var stack))
         {
-            entityCount = $"{{x{stackComponent.Count}}}";
+            sb.Append($" {{x{stack.Count}}}");
         }
         
-        if (_entityManager.TryGetComponent<GunComponent>(uid, out _))
+        foreach (var flag in itemFlags.OrderBy(f => f))
         {
-            entityFlag += "{GUN}";
+            sb.Append($" {{{flag}}}");
         }
 
-        if (_entityManager.TryGetComponent<StoreDiscountComponent>(uid, out _))
-        {
-            entityFlag += "{UPLINK}";
-        }
-        
-        if (contrabandItems.Contains(metadata!.EntityPrototype.ID))
-        {
-            entityFlag += "{ANTAG}";    
-        }
-        
-        var entityData = $"{entityCount}{entityFlag} {entityName}";
-        return entityData;
+        return sb.ToString();
     }
 
-    private bool TryGetContainedItem(string slot, EntityUid? uid, out IReadOnlyList<EntityUid> slotEntityUid, out string exception)
+    private bool TryGetContainedItems(string slot, EntityUid? uid, 
+        out IReadOnlyList<EntityUid> items, out string exception)
     {
-        if (!_entityManager.TryGetComponent<ContainerManagerComponent>(uid, out var containerManagerComponent))
+        items = null!;
+        exception = string.Empty;
+
+        if (!_entityManager.TryGetComponent<ContainerManagerComponent>(uid, out var containerManager))
         {
             exception = "entity has no containers";
-            slotEntityUid = null!;
             return false;
         }
 
-        if (!containerManagerComponent.Containers.Keys.Contains(slot))
-        {
-            exception = "";
-            slotEntityUid = null!;
+        if (!containerManager.Containers.TryGetValue(slot, out var container) || 
+            container.ContainedEntities.Count == 0)
             return false;
-        }
 
-        if (containerManagerComponent.Containers[slot].ContainedEntities.Count == 0)
-        {
-            exception = "";
-            slotEntityUid = null!;
-            return false;
-        }
-
-        exception = "";
-        slotEntityUid = containerManagerComponent.Containers[slot].ContainedEntities;
-        return true;
-    }
-
-    private bool TryGetStoragebase(EntityUid itemInSlot, out IReadOnlyList<EntityUid> itemList, out string exception)
-    {
-        if (!_entityManager.TryGetComponent<ContainerManagerComponent>(itemInSlot, out var slotContainer))
-        {
-            exception = "";
-            itemList = null!;
-            return false;;
-        }
-
-        if (!slotContainer.Containers.Keys.Contains("storagebase"))
-        {
-            exception = "";
-            itemList = null!;
-            return false;
-        }
-        exception = "";
-        itemList = slotContainer.Containers["storagebase"].ContainedEntities;
+        items = container.ContainedEntities;
         return true;
     }
 
     public string ScanAllFlags(EntityUid? uid)
     {
-        string flags = "";
-        var flagList = new List<string>();
+        var flags = new HashSet<string>();
         
-        string[] slots =
+        foreach (var slot in Slots)
         {
-            "shoes",
-            "gloves",
-            "entity_storage",
-            "outerClothing",
-            "id",
-            "implant",
-            "belt",
-            "back",
-            "body_part_slot_right hand",//виздены хуесосы не могут понять как буквы писать
-            "body_part_slot_right_hand",
-            "body_part_slot_left hand",
-            "body_part_slot_left_hand",
-            "pocket1",
-            "pocket2",
-            "suitstorage"
-        };
-        
-        foreach (var slot in slots)
-        {
-            if (uid == null)
-            {
+            if (uid == null || !TryGetContainedItems(slot, uid, out var items, out _))
                 continue;
-            }
-
-            if (!TryGetContainedItem(slot, uid, out var itemInSlot, out _))
-            {
-                continue;
-            }
-            if (slot != "back" && slot != "belt" && slot != "outerClothing")
-            {
-                foreach (var item in itemInSlot)
-                {
-                    ScanFlag(item, ref flagList);
-                }
-            }
             
-            if(slot == "shoes")
+            foreach (var item in items)
             {
-                if (!TryGetContainedItem(slot, uid, out var shoesSlot, out _))
-                {
-                    continue;
-                }
-                if (!TryGetContainedItem("item", shoesSlot[0], out var itemsInShoes, out _))
-                {
-                    continue;
-                }
-
-                foreach (var item in itemsInShoes)
-                {
-                    ScanFlag(item, ref flagList);
-                }
-            }
-            else if(slot == "id")
-            {
-                if (!TryGetContainedItem(slot, uid, out var idSlot, out _))
-                {
-                    continue;
-                }
-                if (!TryGetContainedItem("PDA-id", idSlot[0], out var itemsInPda, out _))
-                {
-                    continue;
-                }
-
-                foreach (var item in itemsInPda)
-                {
-                    ScanFlag(item, ref flagList);
-                }
-            }
-            else
-            {
-                ScanFlag(itemInSlot[0], ref flagList);
-                if (!TryGetStoragebase(itemInSlot[0], out var itemList, out _))
-                {
-                    continue;
-                }
-                
-                foreach (var item in itemList)
-                {
-                    ScanFlag(item, ref flagList);
-
-                    if (TryGetStoragebase(item, out var itemInItemList, out _))
-                    {
-                        foreach (var itemInItem in itemInItemList)
-                        {
-                            ScanFlag(itemInItem, ref flagList);
-
-                            if (TryGetStoragebase(itemInItem, out var itemInItemInItemList, out _))
-                            {
-                                foreach (var itemInItemInItem in itemInItemInItemList)
-                                {
-                                    ScanFlag(itemInItemInItem, ref flagList);
-                                }
-                            }
-                        }
-                    }
-                }
+                ScanItemRecursive(item, flags);
             }
         }
         
-        foreach (var flag in flagList)
+        return string.Join(" ", flags);
+    }
+    
+    private void ScanItemRecursive(EntityUid item, HashSet<string> flags)
+    {
+        var localFlags = new HashSet<string>();
+        ScanFlags(item, localFlags);
+        flags.UnionWith(localFlags);
+    
+        if (TryGetContainedItems("storagebase", item, out var nestedItems, out _))
         {
-            flags += flag + " ";
+            foreach (var nestedItem in nestedItems)
+            {
+                ScanItemRecursive(nestedItem, flags);
+            }
         }
-        
-        return flags;
     }
 
-    private void ScanFlag(EntityUid? uid, ref List<string> flagList)
+    private void ScanFlags(EntityUid uid, HashSet<string> flags)
     {
-        _entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata);
-        var contrabandItems = new List<string>
+        if (_entityManager.HasComponent<GunComponent>(uid))
         {
-            "EnergyDagger",
-            "ToolboxElectricalTurretFilled",
-            "EnergySword",
-            "EnergySwordDouble",
-            "BloodDagger",
-            "EnergyCrossbowMini",
-            "BaseBallBatHomeRun",
-            "BetrayalDagger",
-            "EmpGrenade",
-            "WhiteholeGrenade",
-            "GrenadeIncendiary",
-            "PenExploding",
-            "GrenadeShrapnel",
-            "MobGrenadePenguin",
-            "SupermatterGrenade",
-            "SyndieMiniBomb",
-            "SyndiCrewMonitorEmpty",
-            "DehydratedSpaceCarp",
-            "SyndicateJawsOfLife",
-            "CyberPen",
-            "ClothingMaskGasVoiceChameleon",
-            "FlashlightEmp",
-            "AgentIDCard",
-            "Hypopen",
-            "ChameleonProjector",
-            "ReinforcementRadioSyndicateAncestor",
-            "Emag",
-            "ExperimentalSyndicateTeleporter",
-            "ClothingShoesChameleonNoSlips",
-            "ClothingEyesThermalVisionGogglesSyndie",
-            "ClothingEyesNightVisionGogglesSyndie",
-            "ClothingOuterVestWeb",
-            "ClothingOuterHardsuitSyndie",
-            "ClothingOuterHardsuitSyndieElite",
-            "ClothingOuterHardsuitJuggernaut",
-            "ThievingGloves",
-            "ClothingHandsGlovesNorthStar",
-            "StorageImplant",
-            "ScramImplant",
-            "FreedomImplant",
-            "DnaScramblerImplant",
-            "EmpImplant",
-            "UplinkImplant",
-            "C4",
-            "ClusterGrenade",
-            "ExGrenade"
-        };
-
-        if (contrabandItems.Contains(metadata!.EntityPrototype.ID) && !flagList.Contains("ANTAG"))
-        {
-            flagList.Add("ANTAG");
+            flags.Add("GUN");
         }
         
-        if (_entityManager.TryGetComponent<StoreDiscountComponent>(uid, out _) && !flagList.Contains("UPLINK"))
+        if (_entityManager.TryGetComponent<MetaDataComponent>(uid, out var metadata) && 
+            ContrabandItems.Contains(metadata.EntityPrototype?.ID ?? string.Empty))
         {
-            flagList.Add("UPLINK");
-        }
-        
-        if (_entityManager.TryGetComponent<GunComponent>(uid, out _) && !flagList.Contains("GUN"))
-        {
-            flagList.Add("GUN");
+            flags.Add("ANTAG");
         }
     }
 }

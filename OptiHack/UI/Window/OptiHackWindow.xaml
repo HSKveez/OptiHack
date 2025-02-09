@@ -1,6 +1,6 @@
 <window:OptiHackWindow
     MinHeight="430"
-    MinWidth="490"
+    MinWidth="540"
     MouseFilter="Stop"
     Resizable="False"
     xmlns="https://spacestation14.io"
@@ -16,7 +16,7 @@
     </PanelContainer>
     <BoxContainer Orientation="Vertical" SeparationOverride="0">
         <PanelContainer Name="WindowHeader" StyleClasses="windowHeader">
-            <BoxContainer Orientation="Horizontal" SetSize="480 21">
+            <BoxContainer Orientation="Horizontal" SetSize="540 21">
                 <Label
                     ClipText="True"
                     FontColorOverride="#f2f3f5"
@@ -24,7 +24,7 @@
                     HorizontalExpand="False"
                     Margin="5,0,0,0"
                     Name="TitleLabel"
-                    SetWidth="454"
+                    SetWidth="514"
                     StyleIdentifier="foo"
                     Text="OptiHackWindow"
                     VAlign="Top" />

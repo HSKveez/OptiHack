@@ -56,11 +56,15 @@ public sealed partial class OptiHackMenu : Window.OptiHackWindow
         
         foreach (var item in content)
         {
+            if(item.Contains("{GUN}") || item.Contains("{ANTAG}"))
+            {
+                formatedMessage.PushColor(Color.Red);
+            }
             formatedMessage.AddMarkupPermissive(item);
             formatedMessage.PushNewline();
             formatedMessage.Pop();
+            formatedMessage.PushColor(Color.White);
         }
-        formatedMessage.PushColor(Color.White);
         Info.SetMessage(formatedMessage);
     }
 }

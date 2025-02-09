@@ -2075,15 +2075,15 @@
           }
         }
       },
-      "VorbisPizza/1.4.2": {
+      "VorbisPizza/1.3.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/VorbisPizza.dll": {
+          "lib/net6.0/VorbisPizza.dll": {
             "related": ".xml"
           }
         }
@@ -2101,7 +2101,7 @@
           }
         }
       },
-      "Avalonia.Base/239.0.0": {
+      "Avalonia.Base/240.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
@@ -2117,9 +2117,9 @@
         "dependencies": {
           "Content.Shared": "1.0.0",
           "Nett": "0.15.0",
-          "Robust.Client": "239.0.0",
-          "Robust.Shared": "239.0.0",
-          "Robust.Shared.Maths": "239.0.0",
+          "Robust.Client": "240.1.2",
+          "Robust.Shared": "240.1.2",
+          "Robust.Shared.Maths": "240.1.2",
           "SpaceWizards.Lidgren.Network": "1.0.0"
         },
         "compile": {
@@ -2134,8 +2134,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Content.Shared.Database": "1.0.0",
-          "Robust.Shared": "239.0.0",
-          "Robust.Shared.Maths": "239.0.0",
+          "Robust.Shared": "240.1.2",
+          "Robust.Shared.Maths": "240.1.2",
           "SpaceWizards.Lidgren.Network": "1.0.0"
         },
         "compile": {
@@ -2165,11 +2165,11 @@
           "bin/placeholder/OpenToolkit.GraphicsLibraryFramework.dll": {}
         }
       },
-      "Robust.Client/239.0.0": {
+      "Robust.Client/240.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Avalonia.Base": "239.0.0",
+          "Avalonia.Base": "240.1.2",
           "DiscordRichPresence": "1.2.1.24",
           "JetBrains.Profiler.Api": "1.4.8",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.12.0",
@@ -2183,9 +2183,9 @@
           "OpenToolkit.GraphicsLibraryFramework": "1.0.0",
           "Robust.LoaderApi": "1.0.0",
           "Robust.Natives": "0.1.1",
-          "Robust.Shared": "239.0.0",
-          "Robust.Shared.Maths": "239.0.0",
-          "Robust.Shared.Scripting": "239.0.0",
+          "Robust.Shared": "240.1.2",
+          "Robust.Shared.Maths": "240.1.2",
+          "Robust.Shared.Scripting": "240.1.2",
           "Robust.Xaml": "1.0.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
           "SixLabors.ImageSharp": "3.1.6",
@@ -2224,7 +2224,7 @@
           "bin/placeholder/Robust.NetSerializer.dll": {}
         }
       },
-      "Robust.Shared/239.0.0": {
+      "Robust.Shared/240.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -2237,7 +2237,7 @@
           "Pidgin": "3.3.0",
           "Robust.NetSerializer": "4.1.1",
           "Robust.Shared.AuthLib": "0.1.2",
-          "Robust.Shared.Maths": "239.0.0",
+          "Robust.Shared.Maths": "240.1.2",
           "Serilog": "4.2.0",
           "SharpZstd.Interop": "1.5.2-beta2",
           "SixLabors.ImageSharp": "3.1.6",
@@ -2245,7 +2245,7 @@
           "SpaceWizards.Sodium": "0.2.1",
           "System.Reflection.Metadata": "9.0.0",
           "TerraFX.Interop.Windows": "10.0.26100.1",
-          "VorbisPizza": "1.4.2",
+          "VorbisPizza": "1.3.0",
           "YamlDotNet": "16.3.0",
           "prometheus-net": "8.2.1"
         },
@@ -2256,7 +2256,7 @@
           "bin/placeholder/Robust.Shared.dll": {}
         }
       },
-      "Robust.Shared.Maths/239.0.0": {
+      "Robust.Shared.Maths/240.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
@@ -2266,15 +2266,15 @@
           "bin/placeholder/Robust.Shared.Maths.dll": {}
         }
       },
-      "Robust.Shared.Scripting/239.0.0": {
+      "Robust.Shared.Scripting/240.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Features": "4.12.0",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.12.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.12.0",
-          "Robust.Shared": "239.0.0",
-          "Robust.Shared.Maths": "239.0.0",
+          "Robust.Shared": "240.1.2",
+          "Robust.Shared.Maths": "240.1.2",
           "System.Text.Json": "9.0.0"
         },
         "compile": {
@@ -5900,19 +5900,17 @@
         "terrafx.interop.xlib.nuspec"
       ]
     },
-    "VorbisPizza/1.4.2": {
-      "sha512": "BCBi3iwpwnkyluaOASSm3LAUSEtXr0lohE+t2Mtqv9jwUbaJ49JIRaEVwBA6OwQilWmX9lFX5DneSd9EbKT3OA==",
+    "VorbisPizza/1.3.0": {
+      "sha512": "JD9w4ge4Xm0+/bvmvDpOKcOl/nZPFLLdaxIAxtxwl6ih3Wqof1nK3oEJnhuEys9m2c/0J6gzj1OZKjtQdAaaTA==",
       "type": "package",
-      "path": "vorbispizza/1.4.2",
+      "path": "vorbispizza/1.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "lib/net7.0/VorbisPizza.dll",
-        "lib/net7.0/VorbisPizza.xml",
-        "lib/net8.0/VorbisPizza.dll",
-        "lib/net8.0/VorbisPizza.xml",
-        "vorbispizza.1.4.2.nupkg.sha512",
+        "lib/net6.0/VorbisPizza.dll",
+        "lib/net6.0/VorbisPizza.xml",
+        "vorbispizza.1.3.0.nupkg.sha512",
         "vorbispizza.nuspec"
       ]
     },
@@ -5939,7 +5937,7 @@
         "yamldotnet.nuspec"
       ]
     },
-    "Avalonia.Base/239.0.0": {
+    "Avalonia.Base/240.1.2": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj"
@@ -5964,7 +5962,7 @@
       "path": "../space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj"
     },
-    "Robust.Client/239.0.0": {
+    "Robust.Client/240.1.2": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj"
@@ -5979,17 +5977,17 @@
       "path": "../space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj"
     },
-    "Robust.Shared/239.0.0": {
+    "Robust.Shared/240.1.2": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
     },
-    "Robust.Shared.Maths/239.0.0": {
+    "Robust.Shared.Maths/240.1.2": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
     },
-    "Robust.Shared.Scripting/239.0.0": {
+    "Robust.Shared.Scripting/240.1.2": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj"
@@ -6017,19 +6015,19 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Avalonia.Base >= 239.0.0",
+      "Avalonia.Base >= 240.1.2",
       "Content.Client >= 1.0.0",
       "Content.Shared >= 1.0.0",
       "Content.Shared.Database >= 1.0.0",
       "JetBrains.Annotations >= 2024.2.0",
       "Lib.Harmony >= 2.3.3",
       "OpenToolkit.GraphicsLibraryFramework >= 1.0.0",
-      "Robust.Client >= 239.0.0",
+      "Robust.Client >= 240.1.2",
       "Robust.LoaderApi >= 1.0.0",
       "Robust.NetSerializer >= 4.1.1",
-      "Robust.Shared >= 239.0.0",
-      "Robust.Shared.Maths >= 239.0.0",
-      "Robust.Shared.Scripting >= 239.0.0",
+      "Robust.Shared >= 240.1.2",
+      "Robust.Shared.Maths >= 240.1.2",
+      "Robust.Shared.Scripting >= 240.1.2",
       "SpaceWizards.Lidgren.Network >= 1.0.0",
       "SpaceWizards.NFluidsynth >= 0.1.1"
     ]
@@ -6041,11 +6039,11 @@
   "project": {
     "version": "0.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+      "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
       "projectName": "OptiHack",
-      "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+      "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
       "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
+      "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\1\\VS\\Shared\\NuGetPackages"
@@ -6067,52 +6065,52 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
               "privateAssets": "all"
             }
           }

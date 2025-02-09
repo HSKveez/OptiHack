@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {}
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {
       "version": "0.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
         "projectName": "OptiHack",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
@@ -33,52 +33,52 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
                 "privateAssets": "all"
               }
             }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
         "projectName": "Content.Client",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -163,20 +163,20 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
               }
             }
           }
@@ -198,6 +198,12 @@
               "version": "[2024.3.0, )",
               "versionCentrallyManaged": true
             },
+            "MathNet.Numerics": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
+            },
             "Nett": {
               "target": "Package",
               "version": "[0.15.0, )",
@@ -212,6 +218,7 @@
             "JetBrains.Annotations": "2024.3.0",
             "JetBrains.Profiler.Api": "1.4.8",
             "Linguini.Bundle": "0.8.1",
+            "MathNet.Numerics": "5.0.0",
             "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.2",
             "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
             "Microsoft.CodeAnalysis.Common": "4.12.0",
@@ -271,7 +278,7 @@
             "TerraFX.Interop.Xlib": "6.4.0",
             "Veldrid": "4.8.0",
             "Veldrid.SPIRV": "1.0.15",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -294,21 +301,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
         "projectName": "Content.Shared.Database",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -352,6 +359,7 @@
             "JetBrains.Annotations": "2024.3.0",
             "JetBrains.Profiler.Api": "1.4.8",
             "Linguini.Bundle": "0.8.1",
+            "MathNet.Numerics": "5.0.0",
             "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.2",
             "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
             "Microsoft.CodeAnalysis.Common": "4.12.0",
@@ -411,7 +419,7 @@
             "TerraFX.Interop.Xlib": "6.4.0",
             "Veldrid": "4.8.0",
             "Veldrid.SPIRV": "1.0.15",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -434,21 +442,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
         "projectName": "Content.Shared",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -467,17 +475,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
               }
             }
           }
@@ -498,6 +506,12 @@
               "target": "Package",
               "version": "[2024.3.0, )",
               "versionCentrallyManaged": true
+            },
+            "MathNet.Numerics": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -508,6 +522,7 @@
             "JetBrains.Annotations": "2024.3.0",
             "JetBrains.Profiler.Api": "1.4.8",
             "Linguini.Bundle": "0.8.1",
+            "MathNet.Numerics": "5.0.0",
             "Microsoft.CodeAnalysis.Analyzer.Testing": "1.1.2",
             "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
             "Microsoft.CodeAnalysis.Common": "4.12.0",
@@ -567,7 +582,7 @@
             "TerraFX.Interop.Xlib": "6.4.0",
             "Veldrid": "4.8.0",
             "Veldrid.SPIRV": "1.0.15",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -590,21 +605,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-      "version": "239.0.0",
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+      "version": "240.1.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
         "projectName": "Avalonia.Base",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -655,22 +670,22 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
         "projectName": "SpaceWizards.Lidgren.Network",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -767,7 +782,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -790,21 +805,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
       "version": "4.1.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
         "projectName": "Robust.NetSerializer",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -860,22 +875,22 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
         "projectName": "OpenToolkit.GraphicsLibraryFramework",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -972,7 +987,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -995,14 +1010,14 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-      "version": "239.0.0",
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
+      "version": "240.1.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
         "projectName": "Robust.Client",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -1025,29 +1040,29 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj"
               }
             }
           }
@@ -1244,7 +1259,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -1267,21 +1282,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
         "projectName": "Robust.LoaderApi",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1337,22 +1352,22 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-      "version": "239.0.0",
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+      "version": "240.1.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
         "projectName": "Robust.Shared.Maths",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1452,7 +1467,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -1475,22 +1490,22 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-      "version": "239.0.0",
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
+      "version": "240.1.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
         "projectName": "Robust.Shared.Scripting",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1509,11 +1524,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
               }
             }
           }
@@ -1617,7 +1632,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -1640,22 +1655,22 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-      "version": "239.0.0",
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
+      "version": "240.1.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
         "projectName": "Robust.Shared",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1674,14 +1689,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
               }
             }
           }
@@ -1782,7 +1797,7 @@
             "VorbisPizza": {
               "suppressParent": "Compile",
               "target": "Package",
-              "version": "[1.4.2, )",
+              "version": "[1.3.0, )",
               "versionCentrallyManaged": true
             },
             "YamlDotNet": {
@@ -1857,7 +1872,7 @@
             "System.Text.Json": "9.0.0",
             "TerraFX.Interop.Windows": "10.0.26100.1",
             "TerraFX.Interop.Xlib": "6.4.0",
-            "VorbisPizza": "1.4.2",
+            "VorbisPizza": "1.3.0",
             "YamlDotNet": "16.3.0"
           },
           "imports": [
@@ -1880,21 +1895,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
         "projectName": "Robust.Xaml",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1913,8 +1928,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj"
               }
             }
           }
@@ -1965,21 +1980,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
         "projectName": "XamlX.IL.Cecil",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1998,8 +2013,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj"
+              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
+                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj"
               }
             }
           }
@@ -2046,21 +2061,21 @@
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
+    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
+        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
         "projectName": "XamlX",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
+        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
         "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\obj\\",
+        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\1\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
+          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
           "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

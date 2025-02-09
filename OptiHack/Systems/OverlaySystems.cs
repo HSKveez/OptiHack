@@ -13,85 +13,80 @@ namespace OptiHack.Systems;
 
 public sealed class OptiHackOverlayDraw : Overlay
 {
-    private readonly ISharedPlayerManager _playerManager = IoCManager.Resolve<ISharedPlayerManager>();
-    private readonly IEntityManager _entityManager;
+    [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
+    [Dependency] private readonly IEntityManager _entityManager = default!;
+    [Dependency] private readonly IEyeManager _eyeManager = default!;
+    [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
+    [Dependency] private readonly IResourceCache _resourceCache = default!;
+
     private readonly SharedTransformSystem _transformSystem;
-    private readonly IEyeManager _eyeManager;
-    private readonly IUserInterfaceManager _userInterfaceManager;
     private readonly EntityLookupSystem _entityLookup;
     private readonly ContainerContentAnalyzerSystem _containerContentAnalyzer = new();
-
     private readonly Font _font;
 
     public override OverlaySpace Space => OverlaySpace.ScreenSpace;
 
-    public OptiHackOverlayDraw(IEntityManager entityManager, IResourceCache resourceCache, SharedTransformSystem transformSystem, IEyeManager eyeManager, IUserInterfaceManager userInterfaceManager, EntityLookupSystem entityLookup)
+    public OptiHackOverlayDraw(SharedTransformSystem transformSystem, EntityLookupSystem entityLookup)
     {
-        _entityManager = entityManager;
+        IoCManager.InjectDependencies(this);
         _transformSystem = transformSystem;
-        _eyeManager = eyeManager;
-        _font = new VectorFont(resourceCache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 10);
-        _userInterfaceManager = userInterfaceManager;
         _entityLookup = entityLookup;
+        _font = new VectorFont(_resourceCache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 10);
     }
 
     protected override void Draw(in OverlayDrawArgs args)
     {
         if (args.ViewportControl == null)
             return;
-        
+
         var query = _entityManager.EntityQueryEnumerator<ActorComponent, SpriteComponent, MetaDataComponent>();
         var xformQuery = _entityManager.GetEntityQuery<TransformComponent>();
         var viewport = args.WorldAABB;
-        xformQuery.TryGetComponent(_playerManager.LocalEntity, out var localPlayerXform);
+        var uiScale = _userInterfaceManager.RootControl.UIScale;
+
+        if (!xformQuery.TryGetComponent(_playerManager.LocalEntity, out var localPlayerXform))
+            return;
         
+        var baseLineOffsets = new Vector2[]
+        {
+            new(0f, 11f),    // entityName
+            new(0f, 0f),   // sessionName
+            new(0f, 22f)   // inventoryWarnings
+        };
+
         while (query.MoveNext(out var uid, out var actorComponent, out var spriteComponent, out var metadata))
         {
-            if (!xformQuery.TryGetComponent(uid, out var xform))
-            {
+            if (!xformQuery.TryGetComponent(uid, out var xform) || xform.MapUid != localPlayerXform.MapUid)
                 continue;
-            }
 
-            if (xform.MapUid != localPlayerXform!.MapUid)
-            {
+            var aabb = _entityLookup.GetWorldAABB(uid);
+            if (!aabb.Intersects(in viewport))
                 continue;
-            }
             
-            if (_entityManager.HasComponent<ActorComponent>(uid))
+            var centerToTopRight = aabb.TopRight - aabb.Center;
+            var rotatedOffset = new Angle(-_eyeManager.CurrentEye.Rotation).RotateVec(centerToTopRight);
+            var screenCoordinates = _eyeManager.WorldToScreen(aabb.Center + rotatedOffset) + new Vector2(1f, 7f);
+            
+            var playerSessionName = actorComponent.PlayerSession.Name;
+            var playerEntityName = metadata.EntityName;
+            var playerInventoryWarnings = _containerContentAnalyzer.ScanAllFlags(uid);
+            
+            for (var i = 0; i < baseLineOffsets.Length; i++)
             {
-                var playerSessionName = actorComponent.PlayerSession.Name;
-                var playerEntityName = metadata.EntityName;
-                var playerInventoryWarnings = _containerContentAnalyzer.ScanAllFlags(uid); 
-                
-                var aabb = _entityLookup.GetWorldAABB(uid);
-
-                if (!aabb.Intersects(in viewport))
+                var (text, color) = i switch
                 {
-                    continue;
-                }
-                
-                var uiScale = _userInterfaceManager.RootControl.UIScale;
-                var screenCoordinates = _eyeManager.WorldToScreen(aabb.Center +
-                                                                  new Angle(-_eyeManager.CurrentEye.Rotation).RotateVec(
-                                                                      aabb.TopRight - aabb.Center)) + new Vector2(1f, 7f);
-                
-                var x = 0f;
-                var y = 11f;
-                var lineoffset = new Vector2(x, y) * uiScale;
+                    0 => (playerSessionName, Color.Yellow),
+                    1 => (playerEntityName, Color.Cyan),
+                    _ => (playerInventoryWarnings, Color.OrangeRed)
+                };
 
-                args.ScreenHandle.DrawString(_font, screenCoordinates + lineoffset, playerSessionName, uiScale, Color.Yellow);
-
-                x = 0f;
-                y -= 11f;
-                lineoffset = new Vector2(x, y) * uiScale;
-                
-                args.ScreenHandle.DrawString(_font, screenCoordinates + lineoffset, playerEntityName, uiScale, Color.Cyan);
-                
-                x = 0f;
-                y -= -22f;
-                lineoffset = new Vector2(x, y) * uiScale;
-                
-                args.ScreenHandle.DrawString(_font, screenCoordinates + lineoffset, playerInventoryWarnings, uiScale, Color.OrangeRed);
+                args.ScreenHandle.DrawString(
+                    _font,
+                    screenCoordinates + (baseLineOffsets[i] * uiScale),
+                    text,
+                    uiScale,
+                    color
+                );
             }
         }
     }
@@ -100,14 +95,11 @@ public sealed class OptiHackOverlayDraw : Overlay
 public sealed class OptiHackOverlaySystem : EntitySystem
 {
     [Dependency] private readonly IOverlayManager _overlayManager = default!;
-    [Dependency] private readonly IEntityManager _entityManager = default!;
-    [Dependency] private readonly IResourceCache _resourceCache = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
-    [Dependency] private readonly IEyeManager _eyeManager = default!;
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
-    [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
 
     private OptiHackOverlayDraw? _overlay;
+    private bool _enabled;
 
     public bool Enabled
     {
@@ -115,12 +107,11 @@ public sealed class OptiHackOverlaySystem : EntitySystem
         set
         {
             if (_enabled == value) return;
-
             _enabled = value;
 
             if (_enabled)
             {
-                _overlay = new OptiHackOverlayDraw(_entityManager, _resourceCache, _transformSystem, _eyeManager, _userInterfaceManager, _entityLookup);
+                _overlay ??= new OptiHackOverlayDraw(_transformSystem, _entityLookup);
                 _overlayManager.AddOverlay(_overlay);
             }
             else
@@ -131,6 +122,4 @@ public sealed class OptiHackOverlaySystem : EntitySystem
             }
         }
     }
-
-    private bool _enabled;
 }

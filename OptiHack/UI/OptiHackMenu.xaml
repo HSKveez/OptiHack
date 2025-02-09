@@ -1,15 +1,15 @@
 <menu:OptiHackWindow
-    MinSize="490 398"
-    SetSize="490 398"
+    MinSize="550 398"
+    SetSize="550 398"
     xmlns="https://spacestation14.io"
     xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
     xmlns:menu="clr-namespace:OptiHack.UI.Window">
     <BoxContainer Orientation="Vertical">
-        <BoxContainer SetSize="480 28" />
+        <BoxContainer SetSize="540 28" />
         <BoxContainer
             HorizontalAlignment="Center"
             Orientation="Horizontal"
-            SetSize="475 366"
+            SetSize="530 366"
             VerticalAlignment="Center">
 
             <BoxContainer
@@ -51,30 +51,30 @@
                 HorizontalAlignment="Right"
                 Orientation="Vertical"
                 SeparationOverride="5"
-                SetSize="233 337"
+                SetSize="293 337"
                 VerticalAlignment="Top"
                 VerticalExpand="False">
-                <BoxContainer SetSize="233 337" VerticalAlignment="Top">
-                    <PanelContainer SetSize="233 337">
+                <BoxContainer SetSize="293 337" VerticalAlignment="Top">
+                    <PanelContainer SetSize="293 337">
                         <PanelContainer.PanelOverride>
                             <graphics:StyleBoxFlat
                                 BackgroundColor="#2b2d31"
                                 BorderColor="#2e3035"
                                 BorderThickness="3,3,3,3" />
                         </PanelContainer.PanelOverride>
-                        <ScrollContainer SetSize="223 327">
+                        <ScrollContainer SetSize="283 327">
                             <RichTextLabel Name="Info" />
                         </ScrollContainer>
                     </PanelContainer>
                 </BoxContainer>
                 <BoxContainer
                     Orientation="Horizontal"
-                    SetSize="233 29"
+                    SetSize="293 29"
                     VerticalAlignment="Top">
                     <LineEdit
                         HorizontalAlignment="Left"
                         Name="Uid"
-                        SetWidth="113"
+                        SetWidth="173"
                         StyleClasses="ButtonSquare" />
                     <Button
                         HorizontalAlignment="Right"
