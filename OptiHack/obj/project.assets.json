@@ -2101,7 +2101,7 @@
           }
         }
       },
-      "Avalonia.Base/240.1.2": {
+      "Avalonia.Base/246.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
@@ -2117,9 +2117,9 @@
         "dependencies": {
           "Content.Shared": "1.0.0",
           "Nett": "0.15.0",
-          "Robust.Client": "240.1.2",
-          "Robust.Shared": "240.1.2",
-          "Robust.Shared.Maths": "240.1.2",
+          "Robust.Client": "246.0.0",
+          "Robust.Shared": "246.0.0",
+          "Robust.Shared.Maths": "246.0.0",
           "SpaceWizards.Lidgren.Network": "1.0.0"
         },
         "compile": {
@@ -2134,8 +2134,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Content.Shared.Database": "1.0.0",
-          "Robust.Shared": "240.1.2",
-          "Robust.Shared.Maths": "240.1.2",
+          "Robust.Shared": "246.0.0",
+          "Robust.Shared.Maths": "246.0.0",
           "SpaceWizards.Lidgren.Network": "1.0.0"
         },
         "compile": {
@@ -2165,11 +2165,11 @@
           "bin/placeholder/OpenToolkit.GraphicsLibraryFramework.dll": {}
         }
       },
-      "Robust.Client/240.1.2": {
+      "Robust.Client/246.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Avalonia.Base": "240.1.2",
+          "Avalonia.Base": "246.0.0",
           "DiscordRichPresence": "1.2.1.24",
           "JetBrains.Profiler.Api": "1.4.8",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.12.0",
@@ -2183,9 +2183,9 @@
           "OpenToolkit.GraphicsLibraryFramework": "1.0.0",
           "Robust.LoaderApi": "1.0.0",
           "Robust.Natives": "0.1.1",
-          "Robust.Shared": "240.1.2",
-          "Robust.Shared.Maths": "240.1.2",
-          "Robust.Shared.Scripting": "240.1.2",
+          "Robust.Shared": "246.0.0",
+          "Robust.Shared.Maths": "246.0.0",
+          "Robust.Shared.Scripting": "246.0.0",
           "Robust.Xaml": "1.0.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
           "SixLabors.ImageSharp": "3.1.6",
@@ -2224,7 +2224,7 @@
           "bin/placeholder/Robust.NetSerializer.dll": {}
         }
       },
-      "Robust.Shared/240.1.2": {
+      "Robust.Shared/246.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -2237,7 +2237,7 @@
           "Pidgin": "3.3.0",
           "Robust.NetSerializer": "4.1.1",
           "Robust.Shared.AuthLib": "0.1.2",
-          "Robust.Shared.Maths": "240.1.2",
+          "Robust.Shared.Maths": "246.0.0",
           "Serilog": "4.2.0",
           "SharpZstd.Interop": "1.5.2-beta2",
           "SixLabors.ImageSharp": "3.1.6",
@@ -2256,7 +2256,7 @@
           "bin/placeholder/Robust.Shared.dll": {}
         }
       },
-      "Robust.Shared.Maths/240.1.2": {
+      "Robust.Shared.Maths/246.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
@@ -2266,15 +2266,15 @@
           "bin/placeholder/Robust.Shared.Maths.dll": {}
         }
       },
-      "Robust.Shared.Scripting/240.1.2": {
+      "Robust.Shared.Scripting/246.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Features": "4.12.0",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.12.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.12.0",
-          "Robust.Shared": "240.1.2",
-          "Robust.Shared.Maths": "240.1.2",
+          "Robust.Shared": "246.0.0",
+          "Robust.Shared.Maths": "246.0.0",
           "System.Text.Json": "9.0.0"
         },
         "compile": {
@@ -5937,7 +5937,7 @@
         "yamldotnet.nuspec"
       ]
     },
-    "Avalonia.Base/240.1.2": {
+    "Avalonia.Base/246.0.0": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj"
@@ -5962,7 +5962,7 @@
       "path": "../space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj"
     },
-    "Robust.Client/240.1.2": {
+    "Robust.Client/246.0.0": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj"
@@ -5977,17 +5977,17 @@
       "path": "../space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj"
     },
-    "Robust.Shared/240.1.2": {
+    "Robust.Shared/246.0.0": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
     },
-    "Robust.Shared.Maths/240.1.2": {
+    "Robust.Shared.Maths/246.0.0": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
     },
-    "Robust.Shared.Scripting/240.1.2": {
+    "Robust.Shared.Scripting/246.0.0": {
       "type": "project",
       "path": "../space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
       "msbuildProject": "../space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj"
@@ -6015,102 +6015,94 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Avalonia.Base >= 240.1.2",
+      "Avalonia.Base >= 246.0.0",
       "Content.Client >= 1.0.0",
       "Content.Shared >= 1.0.0",
       "Content.Shared.Database >= 1.0.0",
       "JetBrains.Annotations >= 2024.2.0",
       "Lib.Harmony >= 2.3.3",
       "OpenToolkit.GraphicsLibraryFramework >= 1.0.0",
-      "Robust.Client >= 240.1.2",
+      "Robust.Client >= 246.0.0",
       "Robust.LoaderApi >= 1.0.0",
       "Robust.NetSerializer >= 4.1.1",
-      "Robust.Shared >= 240.1.2",
-      "Robust.Shared.Maths >= 240.1.2",
-      "Robust.Shared.Scripting >= 240.1.2",
+      "Robust.Shared >= 246.0.0",
+      "Robust.Shared.Maths >= 246.0.0",
+      "Robust.Shared.Scripting >= 246.0.0",
       "SpaceWizards.Lidgren.Network >= 1.0.0",
       "SpaceWizards.NFluidsynth >= 0.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\neyro\\.nuget\\packages\\": {},
-    "D:\\1\\VS\\Shared\\NuGetPackages": {}
+    "/home/hskveez/.nuget/packages/": {}
   },
   "project": {
     "version": "0.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+      "projectUniqueName": "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj",
       "projectName": "OptiHack",
-      "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
-      "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
+      "projectPath": "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj",
+      "packagesPath": "/home/hskveez/.nuget/packages/",
+      "outputPath": "/home/hskveez/main/code/OptiHack/OptiHack/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\1\\VS\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/hskveez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
               "privateAssets": "all"
             },
-            "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-              "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+            "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+              "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
               "privateAssets": "all"
             }
           }
@@ -6126,7 +6118,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -6161,7 +6153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

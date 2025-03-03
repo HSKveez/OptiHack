@@ -1,87 +1,118 @@
 <menu:OptiHackWindow
-    MinSize="550 398"
-    SetSize="550 398"
+    MinSize="750 398"
+    SetSize="750 398"
     xmlns="https://spacestation14.io"
     xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
     xmlns:menu="clr-namespace:OptiHack.UI.Window">
     <BoxContainer Orientation="Vertical">
-        <BoxContainer SetSize="540 28" />
+        <BoxContainer SetSize="740 28"/>
         <BoxContainer
             HorizontalAlignment="Center"
             Orientation="Horizontal"
-            SetSize="530 366"
+            SetSize="730 366"
             VerticalAlignment="Center">
 
+            <!-- Левая колонка с кнопками -->
             <BoxContainer
                 HorizontalAlignment="Left"
                 Orientation="Vertical"
                 SeparationOverride="5"
-                SetSize="233 366"
-                VerticalAlignment="Top"
-                VerticalExpand="False">
+                SetSize="200 366"
+                VerticalAlignment="Top">
                 <Button
                     Name="Overlay"
                     StyleClasses="ButtonSquare"
                     Text="Overlay"
-                    ToggleMode="True" />
+                    ToggleMode="True"/>
                 <Button
                     Name="Hud"
                     StyleClasses="ButtonSquare"
                     Text="Toggle Hud"
-                    ToggleMode="True" />
+                    ToggleMode="True"/>
                 <Button
                     Name="Fov"
                     StyleClasses="ButtonSquare"
                     Text="Toggle FOV"
-                    ToggleMode="True" />
+                    ToggleMode="True"/>
                 <Button
                     Name="Shadows"
                     StyleClasses="ButtonSquare"
                     Text="Toggle Shadows"
-                    ToggleMode="True" />
+                    ToggleMode="True"/>
             </BoxContainer>
+
+            <!-- Разделитель -->
             <BoxContainer
                 HorizontalAlignment="Center"
                 Orientation="Vertical"
                 SeparationOverride="5"
                 SetSize="4 366"
-                VerticalAlignment="Center"
-                VerticalExpand="False" />
+                VerticalAlignment="Center"/>
+
+            <!-- Центральная колонка со списком сущностей -->
             <BoxContainer
                 HorizontalAlignment="Right"
                 Orientation="Vertical"
                 SeparationOverride="5"
-                SetSize="293 337"
-                VerticalAlignment="Top"
-                VerticalExpand="False">
-                <BoxContainer SetSize="293 337" VerticalAlignment="Top">
-                    <PanelContainer SetSize="293 337">
+                SetSize="250 337"
+                VerticalAlignment="Top">
+                <BoxContainer SetSize="250 337" VerticalAlignment="Top">
+                    <PanelContainer SetSize="250 337">
                         <PanelContainer.PanelOverride>
                             <graphics:StyleBoxFlat
                                 BackgroundColor="#2b2d31"
                                 BorderColor="#2e3035"
-                                BorderThickness="3,3,3,3" />
+                                BorderThickness="3,3,3,3"/>
                         </PanelContainer.PanelOverride>
-                        <ScrollContainer SetSize="283 327">
-                            <RichTextLabel Name="Info" />
+                        <ScrollContainer SetSize="240 327">
+                            <RichTextLabel Name="Info"/>
                         </ScrollContainer>
                     </PanelContainer>
                 </BoxContainer>
                 <BoxContainer
                     Orientation="Horizontal"
-                    SetSize="293 29"
+                    SetSize="250 29"
                     VerticalAlignment="Top">
                     <LineEdit
                         HorizontalAlignment="Left"
                         Name="Uid"
-                        SetWidth="173"
-                        StyleClasses="ButtonSquare" />
+                        SetWidth="150"
+                        StyleClasses="ButtonSquare"/>
                     <Button
                         HorizontalAlignment="Right"
                         Name="Scan"
                         StyleClasses="ButtonSquare"
-                        Text="Scan Inventory" />
+                        Text="Scan"/>
                 </BoxContainer>
+            </BoxContainer>
+
+            <!-- Разделитель -->
+            <BoxContainer
+                HorizontalAlignment="Center"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                SetSize="4 366"
+                VerticalAlignment="Center"/>
+
+            <!-- Правая колонка с выводом информации -->
+            <BoxContainer
+                HorizontalAlignment="Left"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                SetSize="270 366"
+                VerticalAlignment="Top">
+                <Button
+                    Name="RefreshEntities"
+                    StyleClasses="ButtonSquare"
+                    Text="Refresh Entities"
+                    HorizontalAlignment="Stretch"/>
+                <ScrollContainer
+                    SetSize="270 330">
+                    <BoxContainer
+                        Name="EntityListContainer"
+                        Orientation="Vertical"
+                        SeparationOverride="2"/>
+                </ScrollContainer>
             </BoxContainer>
         </BoxContainer>
     </BoxContainer>

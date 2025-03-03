@@ -1,84 +1,77 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {}
+    "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj": {
+    "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj": {
       "version": "0.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj",
         "projectName": "OptiHack",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\OptiHack.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\OptiHack\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/OptiHack/OptiHack.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/OptiHack/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
                 "privateAssets": "all"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
                 "privateAssets": "all"
               }
             }
@@ -94,7 +87,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -129,54 +122,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj",
         "projectName": "Content.Client",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\Content.Client.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Client\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/Content.Client.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Client/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
               }
             }
           }
@@ -186,7 +172,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -297,35 +283,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj",
         "projectName": "Content.Shared.Database",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -346,7 +325,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -438,35 +417,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj",
         "projectName": "Content.Shared",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\Content.Shared.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/Content.Shared.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -475,17 +447,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\Content.Shared.Database\\Content.Shared.Database.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/Content.Shared.Database/Content.Shared.Database.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
               }
             }
           }
@@ -495,7 +467,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -601,35 +573,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-      "version": "240.1.2",
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj": {
+      "version": "246.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
         "projectName": "Avalonia.Base",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -645,7 +610,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -666,36 +631,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj",
         "projectName": "SpaceWizards.Lidgren.Network",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -716,7 +674,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -801,35 +759,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj": {
       "version": "4.1.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
         "projectName": "Robust.NetSerializer",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -850,7 +801,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -871,36 +822,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
         "projectName": "OpenToolkit.GraphicsLibraryFramework",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -921,7 +865,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1006,63 +950,56 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj": {
-      "version": "240.1.2",
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj": {
+      "version": "246.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
         "projectName": "Robust.Client",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\Robust.Client.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Client\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/Robust.Client.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Client/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Avalonia.Base\\Avalonia.Base.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Avalonia.Base/Avalonia.Base.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\OpenToolkit.GraphicsLibraryFramework\\OpenToolkit.GraphicsLibraryFramework.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/OpenToolkit.GraphicsLibraryFramework/OpenToolkit.GraphicsLibraryFramework.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/Robust.Xaml.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/Robust.Xaml.csproj"
               }
             }
           }
@@ -1077,7 +1014,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1278,35 +1215,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj",
         "projectName": "Robust.LoaderApi",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\Robust.LoaderApi.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.LoaderApi\\Robust.LoaderApi\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/Robust.LoaderApi.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.LoaderApi/Robust.LoaderApi/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -1327,7 +1257,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -1348,36 +1278,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-      "version": "240.1.2",
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+      "version": "246.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
         "projectName": "Robust.Shared.Maths",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -1393,7 +1316,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1486,36 +1409,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj": {
-      "version": "240.1.2",
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj": {
+      "version": "246.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
         "projectName": "Robust.Shared.Scripting",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\Robust.Shared.Scripting.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Scripting\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/Robust.Shared.Scripting.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Scripting/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -1524,11 +1440,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj"
               }
             }
           }
@@ -1538,7 +1454,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1651,36 +1567,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj": {
-      "version": "240.1.2",
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj": {
+      "version": "246.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
         "projectName": "Robust.Shared",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\Robust.Shared.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/Robust.Shared.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -1689,14 +1598,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Lidgren.Network\\Lidgren.Network.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Lidgren.Network/Lidgren.Network.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NetSerializer\\NetSerializer\\NetSerializer.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/NetSerializer/NetSerializer/NetSerializer.csproj"
               },
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Shared.Maths\\Robust.Shared.Maths.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Shared.Maths/Robust.Shared.Maths.csproj"
               }
             }
           }
@@ -1706,7 +1615,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1891,35 +1800,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/Robust.Xaml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/Robust.Xaml.csproj",
         "projectName": "Robust.Xaml",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\Robust.Xaml.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\Robust.Xaml\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/Robust.Xaml.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/Robust.Xaml/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -1928,8 +1830,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/XamlX.IL.Cecil.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/XamlX.IL.Cecil.csproj"
               }
             }
           }
@@ -1944,7 +1846,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -1976,35 +1878,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/XamlX.IL.Cecil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/XamlX.IL.Cecil.csproj",
         "projectName": "XamlX.IL.Cecil",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\XamlX.IL.Cecil.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX.IL.Cecil\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/XamlX.IL.Cecil.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX.IL.Cecil/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -2013,8 +1908,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
-                "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj"
+              "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/XamlX.csproj": {
+                "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/XamlX.csproj"
               }
             }
           }
@@ -2029,7 +1924,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -2057,35 +1952,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj": {
+    "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/XamlX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
+        "projectUniqueName": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/XamlX.csproj",
         "projectName": "XamlX",
-        "projectPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\XamlX.csproj",
-        "packagesPath": "C:\\Users\\neyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\XamlX\\src\\XamlX\\obj\\",
+        "projectPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/XamlX.csproj",
+        "packagesPath": "/home/hskveez/.nuget/packages/",
+        "outputPath": "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/XamlX/src/XamlX/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\1\\VS\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\RobustToolbox\\NuGet.Config",
-          "C:\\Users\\neyro\\Desktop\\  \\harmony\\scripts\\OptiHack\\space-station-14\\NuGet.Config",
-          "C:\\Users\\neyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hskveez/main/code/OptiHack/space-station-14/RobustToolbox/nuget.config",
+          "/home/hskveez/main/code/OptiHack/space-station-14/nuget.config",
+          "/home/hskveez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
@@ -2106,7 +1994,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -2134,7 +2022,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
