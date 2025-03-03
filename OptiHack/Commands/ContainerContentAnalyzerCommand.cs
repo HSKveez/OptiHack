@@ -39,7 +39,6 @@ public class ContainerContentAnalyzerCommand : IConsoleCommand
         foreach (var line in output)
         {
             shell.WriteLine(line);
-            
         }
     }
 }

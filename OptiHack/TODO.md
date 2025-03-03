@@ -15,7 +15,6 @@
 - [x] Overlay
 - - [x] Base overlay
 - - [x] Tag overly
-- [ ] Hover target selector
 - [x] Auto slot parser
 - [x] UI
 - [x] Full scanner

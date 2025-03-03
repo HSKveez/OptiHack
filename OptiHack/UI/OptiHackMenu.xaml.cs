@@ -82,6 +82,13 @@ public sealed partial class OptiHackMenu : Window.OptiHackWindow
         var query = _entityManager.EntityQueryEnumerator<MetaDataComponent, ContainerManagerComponent, SpriteComponent, InventoryComponent>();
         while (query.MoveNext(out _, out var meta, out _, out _, out var slots))
         {
+            if(slots.TemplateId == "pet"
+                || slots.TemplateId == "hamster"
+                || slots.TemplateId == "kangaroo"
+                || slots.TemplateId == "medibot"
+                || slots.TemplateId == "mannequin")
+                continue;
+            
             var button = new Button
             {
                 StyleClasses = { "ButtonSquare" },
